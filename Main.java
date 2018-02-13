@@ -9,7 +9,7 @@ public class Main {
             Hex = Hex.substring(2);
 
         }
-        long decimal = 0;
+        long decimal = 0; // this variable is a long because the largest hexadecimal number exceeds the boundaries for int
         for (int i=0; i < Hex.length(); i++){
             int value;
             if (Hex.substring(i,i + 1).equals("A") || Hex.substring(i,i + 1).equals("a")){
